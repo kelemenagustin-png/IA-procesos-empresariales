@@ -83,19 +83,35 @@ Priorizá soluciones económicas, realistas y accesibles para un negocio adminis
 
 ## 4. Validación del prompt
 
-**Estado:** Pendiente de documentar.
+**Modelo utilizado:** ChatGPT (GPT-6)
 
-**Prueba prevista:** Ejecutar el prompt en un modelo de IA y comprobar que:
+**Tipo de prueba:** ejecución con el contexto empresarial proporcionado en el prompt.
 
-- Proponga exactamente siete acciones.
-- Priorice el control del inventario y los registros financieros.
-- Distinga correctamente entre acciones urgentes e importantes.
-- Incluya dos indicadores por acción.
-- No invente datos de rentabilidad.
-- No recomiende inversiones importantes sin información suficiente.
+**Resultado:** la IA generó un plan administrativo compuesto por siete acciones priorizadas.
+
+### Criterios de evaluación
+
+| Criterio                                                    | Resultado |
+| ----------------------------------------------------------- | --------- |
+| Proponer exactamente siete acciones                         | Cumplido  |
+| Priorizar inventario y registros financieros                | Cumplido  |
+| Diferenciar acciones urgentes e importantes                 | Cumplido  |
+| Incluir dos indicadores por acción                          | Cumplido  |
+| Evitar inventar cifras de rentabilidad                      | Cumplido  |
+| No recomendar inversiones importantes sin datos suficientes | Cumplido  |
+
+**Resultado general:** 6 de 6 criterios cumplidos en la primera ejecución.
+
+**Limitaciones:** la evaluación se realizó sobre una respuesta del mismo modelo utilizado para ejecutar el prompt. No se comprobó todavía su desempeño con otros modelos ni la efectividad empresarial de las recomendaciones.
 
 ## 5. Conclusiones
 
-Este ejercicio permitió practicar la definición de roles, la contextualización de problemas reales, el establecimiento de criterios de decisión y la solicitud de resultados medibles.
+El prompt cumplió su objetivo inicial: generar un plan de acción organizado, priorizado y acompañado de indicadores de seguimiento.
 
-**Próximo paso:** ejecutar y evaluar el prompt, registrar el modelo utilizado, los resultados obtenidos y las posibles mejoras.
+La respuesta mantuvo el enfoque solicitado, dando prioridad al control del inventario, el registro de operaciones y el análisis financiero antes de proponer estrategias de crecimiento.
+
+El ejercicio permitió aplicar conceptos de Prompt Engineering como asignación de roles, contextualización, definición de tareas, formato de salida y restricciones.
+
+**Aprendizaje principal:** una instrucción bien contextualizada puede orientar las recomendaciones de la IA hacia las necesidades reales del problema planteado.
+
+**Estado:** primera prueba superada. Pendiente de validación adicional con otros escenarios o modelos.
