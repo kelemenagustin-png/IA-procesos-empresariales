@@ -95,32 +95,40 @@ La aplicación constituye un primer resultado del proceso de desarrollo asistido
 
 La publicación de la página no demuestra por sí sola que todas las funcionalidades hayan sido verificadas.
 
-## 7. Validación del proyecto
+## 7. Validación funcional del proyecto
 
-**Estado:** Pendiente de pruebas funcionales documentadas.
+**Herramienta utilizada:** v0 de Vercel.
 
-Pruebas previstas:
+**Método de validación:** pruebas manuales en la aplicación publicada y revisión de un archivo de respaldo JSON.
 
-1. Registrar un producto con 10 unidades.
-2. Registrar una venta de 2 unidades.
-3. Verificar que el stock disminuya a 8.
-4. Registrar una reposición de 5 unidades y comprobar que el stock aumente a 13.
-5. Cerrar y volver a abrir la página para comprobar la persistencia local.
-6. Exportar los datos y verificar que puedan importarse correctamente.
-7. Comprobar que la aplicación rechace ventas superiores al stock disponible.
+**Resultado:** 6 de 6 funcionalidades básicas verificadas en la prueba inicial.
 
-Los resultados se documentarán después de ejecutar las pruebas.
+| Funcionalidad | Resultado |
+|---|---|
+| Registro de productos y operaciones | Cumplido |
+| Descuento automático del inventario al vender | Cumplido |
+| Registro de reposiciones y actualización de cantidades | Cumplido |
+| Conservación de datos al cerrar y abrir la aplicación | Cumplido |
+| Importación de datos mediante JSON | Cumplido |
+| Bloqueo de ventas superiores al stock disponible | Cumplido |
 
-## 8. Conclusiones y aprendizajes
+### Evidencia adicional
 
-Este ejercicio permitió experimentar cómo una necesidad empresarial puede convertirse en un prototipo mediante instrucciones en lenguaje natural.
+Se analizó un archivo JSON exportado desde la aplicación que contiene un producto de prueba, una venta y sus movimientos de inventario.
 
-El principal aprendizaje fue comprender la importancia de definir correctamente el alcance de un proyecto.
+El archivo registra un stock inicial de 25 unidades, una venta de una unidad y un stock resultante de 24 unidades. Los valores son consistentes.
 
-La primera versión incorporaba demasiados componentes técnicos para una práctica inicial. La segunda priorizó las funciones esenciales y redujo la complejidad.
+### Limitaciones
 
-También permitió identificar la diferencia entre una aplicación publicada, una aplicación funcional y una aplicación preparada para almacenar información empresarial real.
+La validación fue manual y se realizó sobre un conjunto reducido de operaciones. No constituye una prueba exhaustiva de seguridad, rendimiento o integridad de datos.
 
-**Aprendizaje principal:** un prompt técnicamente detallado no necesariamente produce un mejor resultado cuando la complejidad supera las necesidades de la primera versión.
+Se detectó una diferencia cronológica entre la fecha de creación del producto y la fecha de la venta registrada, que podría corresponder a una operación histórica y merece revisión.
 
-**Estado:** prototipo publicado, pendiente de validación funcional completa.
+### Mejoras futuras
+
+- Incorporar alertas de stock mínimo y sugerencias de reposición.
+- Mejorar el diseño visual y la experiencia de usuario.
+- Evaluar una base de datos centralizada con autenticación.
+- Ampliar las pruebas con diferentes productos y operaciones.
+
+**Estado:** MVP publicado y prueba funcional inicial superada.
