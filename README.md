@@ -1,10 +1,14 @@
 # IA aplicada a procesos empresariales
 
-## Sobre este repositorio
+## Estado
 
-Este repositorio reúne cinco ejercicios prácticos de Prompt Engineering realizados durante mi formación en Inteligencia Artificial en ITeducation.
+Proyecto integrador de Prompt Engineering finalizado en octubre de 2026, durante mi formación en Inteligencia Artificial en ITeducation.
 
-Mi objetivo es aprender a utilizar herramientas de IA para identificar problemas, optimizar procesos y explorar oportunidades de automatización en pequeñas empresas y emprendimientos.
+El repositorio contiene cinco ejercicios prácticos con instrucciones, resultados y validaciones documentadas.
+
+Los proyectos incluyen casos reales y escenarios simulados, identificados en cada archivo. Algunas propuestas de automatización fueron evaluadas conceptualmente y no representan implementaciones en producción.
+
+Este repositorio constituye una primera etapa de aprendizaje y podrá ampliarse durante los siguientes módulos de formación.
 
 ## Contenido
 
