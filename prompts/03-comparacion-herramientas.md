@@ -36,44 +36,56 @@ Actua como una consultora en productividad para recomendarme una app de gestion 
 
 ## 5. Validación del prompt
 
-**Estado:** prueba inicial realizada; documentación pendiente de completar.
+**Modelos utilizados:** ChatGPT y Google Gemini.
 
-El prompt fue ejecutado en dos modelos de lenguaje diferentes. Ambos proporcionaron la misma recomendación, según lo observado durante el ejercicio.
+**Método:** ejecución del mismo prompt en dos modelos de lenguaje y comparación de las recomendaciones obtenidas.
 
-Para completar la validación es necesario registrar:
+### Resultados
 
-- Nombre de los dos modelos utilizados.
-- Herramienta recomendada por cada modelo.
-- Argumentos principales de cada respuesta.
-- Verificación de los costos y las características mencionadas.
-- Evaluación de si la recomendación responde a las necesidades descritas.
+| Criterio | ChatGPT | Gemini |
+|---|---|---|
+| Herramienta recomendada | Trello | Trello |
+| Argumento principal | Simplicidad de implementación | Facilidad de aprendizaje y adopción |
+| Tamaño del equipo | Considerado | Considerado |
+| Costos | Se consideraron planes gratuitos | Se consideraron planes gratuitos |
+| Facilidad de uso | Prioridad alta | Prioridad alta |
+| Justificación | Recomendación contextualizada | Comparación y argumentación detallada |
+
+### Verificación de la información
+
+Se contrastaron los planes gratuitos con las páginas oficiales de cada herramienta:
+
+- Trello: hasta 10 colaboradores y 10 tableros por espacio de trabajo.
+- Asana: hasta 2 usuarios y proyectos ilimitados.
+- Jira: hasta 10 usuarios en el plan gratuito.
+
+Fuentes consultadas:
+
+- https://trello.com/es/pricing
+- https://asana.com/es/pricing
+- https://www.atlassian.com/software/jira/pricing
+
+Se identificó una afirmación incorrecta en la respuesta de Gemini: indicó que Trello permite tableros ilimitados en su plan gratuito, cuando el límite oficial es de 10 tableros por espacio de trabajo.
+
+También afirmó que cualquier persona puede aprender a utilizar Trello en menos de cinco minutos, sin aportar evidencia que permita garantizar ese tiempo de aprendizaje.
 
 ### Criterios de evaluación
 
-| Criterio | Estado |
+| Criterio | Resultado |
 |---|---|
-| Comparar las tres herramientas solicitadas | Pendiente de documentar |
-| Analizar costos y alternativas gratuitas | Pendiente de documentar |
-| Evaluar facilidad de uso para principiantes | Pendiente de documentar |
-| Considerar el equipo de dos personas | Pendiente de documentar |
-| Proporcionar una recomendación fundamentada | Pendiente de documentar |
+| Comparar Trello, Asana y Jira | Cumplido |
+| Considerar los planes gratuitos | Cumplido |
+| Evaluar la facilidad de uso | Cumplido |
+| Considerar un equipo de dos personas | Cumplido |
+| Proporcionar una recomendación justificada | Cumplido |
+| Verificar la exactitud de toda la información | Parcial: se detectaron afirmaciones incorrectas o no fundamentadas |
 
-## 6. Limitaciones y mejoras
+### Conclusión de la validación
 
-El prompt no especifica qué actividades realiza el equipo ni define con precisión qué significa no disponer de un presupuesto fijo.
+Ambos modelos recomendaron Trello, utilizando argumentos similares relacionados con su simplicidad y facilidad de implementación.
 
-Estos datos podrían modificar la recomendación final.
+La verificación posterior mostró que una conclusión razonable puede estar acompañada de información incorrecta.
 
-Una mejora sería indicar qué tipo de proyectos se administrarán, qué tareas necesitan coordinarse y si el presupuesto disponible para herramientas es cero.
+**Aprendizaje principal:** la coincidencia entre modelos no garantiza la exactitud de sus respuestas. Es necesario contrastar la información con fuentes confiables.
 
-También sería conveniente solicitar fuentes oficiales para verificar los precios y las limitaciones actuales de cada plataforma.
-
-## 7. Aprendizajes
-
-Este ejercicio permitió practicar la utilización de IA para comparar alternativas, definir criterios de evaluación y solicitar recomendaciones justificadas.
-
-También permitió reconocer que una respuesta coincidente entre dos modelos no constituye por sí sola una validación suficiente.
-
-**Aprendizaje principal:** un prompt de comparación necesita proporcionar criterios relevantes para que la recomendación se ajuste al contexto del usuario.
-
-**Estado del ejercicio:** prompt desarrollado y probado inicialmente con dos modelos; pendiente de completar la validación documental.
+**Estado:** prueba comparativa realizada y verificación documental parcial completada.
