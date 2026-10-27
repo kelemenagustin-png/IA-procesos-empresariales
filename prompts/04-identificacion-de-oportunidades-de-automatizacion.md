@@ -16,19 +16,60 @@ Actualmente utiliza WhatsApp y Google Sheets, sin automatizaciones implementadas
 
 ## 3. Prompt utilizado
 
-El prompt solicita que una IA actúe como consultora en optimización de procesos empresariales.
+### Prompt original completo
 
-Sus instrucciones principales son:
+Actuá como un consultor especializado en optimización de procesos empresariales y automatización mediante Inteligencia Artificial.
 
-- Analizar seis tareas operativas.
-- Diferenciar automatizaciones completas, parciales y supervisadas.
-- Priorizar tres oportunidades de mejora.
-- Recomendar herramientas accesibles.
-- Distinguir automatizaciones basadas en reglas de soluciones que utilizan IA.
-- Proponer dos indicadores de evaluación.
-- Considerar los riesgos de privacidad, inventario e integración con WhatsApp.
+**Contexto:**
 
-**Nota:** incorporar aquí el texto completo del prompt utilizado en la prueba, conservando sus instrucciones originales.
+Una pequeña empresa comercial recibe aproximadamente 30 pedidos diarios por WhatsApp.
+
+Actualmente, una persona se encarga manualmente de:
+
+1. Leer los mensajes de los clientes.
+2. Identificar qué productos solicita cada cliente.
+3. Verificar precios y disponibilidad.
+4. Registrar los pedidos en Google Sheets.
+5. Responder a los clientes con una confirmación.
+6. Informar al responsable del negocio cuando falta mercadería.
+
+La empresa tiene dos personas trabajando, utiliza WhatsApp y Google Sheets y no cuenta con automatizaciones implementadas.
+
+**Objetivo:**
+
+Analizá este proceso e identificá las oportunidades de automatización que podrían reducir tareas repetitivas, disminuir errores y mejorar la organización del trabajo.
+
+**Instrucciones:**
+
+1. Identificá qué tareas podrían automatizarse completamente, cuáles parcialmente y cuáles requieren supervisión humana.
+2. Explicá por qué clasificaste cada tarea de esa manera.
+3. Priorizá las tres oportunidades de automatización más convenientes para comenzar.
+4. Indicá qué herramientas podrían utilizarse, considerando alternativas gratuitas o de bajo costo.
+5. Diferenciá las automatizaciones basadas en reglas de aquellas que podrían necesitar IA.
+6. Proponé dos indicadores para medir si la implementación produce mejoras.
+
+**Formato de respuesta:**
+
+Presentá una tabla con las columnas:
+
+- Tarea.
+- Tipo de automatización.
+- Herramienta sugerida.
+- Beneficio esperado.
+- Riesgos o limitaciones.
+- Prioridad.
+
+Finalizá con una recomendación de los primeros tres pasos que debería realizar la empresa.
+
+**Restricciones:**
+
+- No asumas que todas las tareas necesitan Inteligencia Artificial.
+- No inventes precios, capacidades ni integraciones de las herramientas sugeridas.
+- No supongas que se puede acceder automáticamente a los mensajes de WhatsApp sin verificar los requisitos técnicos y permisos correspondientes.
+- No recomiendes automatizar confirmaciones de pedidos sin verificar previamente precios y disponibilidad.
+- Considerá la privacidad de los datos de los clientes.
+- No garantices ahorros de tiempo ni mejoras sin contar con mediciones iniciales.
+- Priorizá soluciones sencillas y realistas para un equipo de dos personas.
 
 ## 4. Validación del prompt
 
