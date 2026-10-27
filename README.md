@@ -10,11 +10,11 @@ Mi objetivo es aprender a utilizar herramientas de IA para identificar problemas
 
 Los proyectos abordan:
 
-1. Diagnóstico y organización empresarial.
-2. Desarrollo de un prototipo de gestión de stock mediante Vibe Coding.
-3. Comparación de herramientas de gestión de proyectos.
-4. Identificación de tareas repetitivas con potencial de automatización.
-5. Diseño de procesos de trabajo asistidos por IA.
+[1. Diagnóstico y organización empresarial.](https://github.com/kelemenagustin-png/IA-procesos-empresariales/blob/main/prompts/01-diagnostico-empresarial.md)
+2. [Desarrollo de un prototipo de gestión de stock mediante Vibe Coding.](https://github.com/kelemenagustin-png/IA-procesos-empresariales/blob/main/prompts/02-app-stock-v0.md)
+3. [Comparación de herramientas de gestión de proyectos.](https://github.com/kelemenagustin-png/IA-procesos-empresariales/blob/main/prompts/03-comparacion-herramientas.md)
+4. [Identificación de tareas repetitivas con potencial de automatización.](https://github.com/kelemenagustin-png/IA-procesos-empresariales/blob/main/prompts/04-identificacion-de-oportunidades-de-automatizacion.md)
+5. [Diseño de procesos de trabajo asistidos por IA.](https://github.com/kelemenagustin-png/IA-procesos-empresariales/blob/main/prompts/05-diseno-automatizacion.md)
 
 ## Metodología
 
